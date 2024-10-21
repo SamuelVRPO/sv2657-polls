@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    'ebdjango-dev22.us-east-1.elasticbeanstalk.com'
+    'django-polls-dev.us-east-1.elasticbeanstalk.com'
     ]
 
 
