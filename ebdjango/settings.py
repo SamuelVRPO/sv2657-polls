@@ -26,6 +26,7 @@ SECRET_KEY = 'i#52#si(anpq-761_qzptx83w*8pei97+@(^u$3kq0nt$5p#0='
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    '127.0.0.1',
     'django-polls-dev.us-east-1.elasticbeanstalk.com'
     ]
 
