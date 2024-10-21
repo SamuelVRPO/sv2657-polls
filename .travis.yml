@@ -1,3 +1,4 @@
+os: osx
 language: python
 python:
   - "3.11"
@@ -8,7 +9,6 @@ script:
   - black polls
   - flake8 ebdjango
   - coveralls
-
 deploy:
   provider: elasticbeanstalk
   access_key_id:
