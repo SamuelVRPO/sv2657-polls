@@ -3,6 +3,12 @@ python:
   - "3.11"
 install:
   - pip install -r requirements.txt
+script:
+  - black ebdjango
+  - black polls
+  - flake8 ebdjango
+  - coveralls
+
 deploy:
   provider: elasticbeanstalk
   access_key_id:
