@@ -8,6 +8,7 @@ script:
   - black --check polls
   - flake8 ebdjango
   - flake8 polls
+  - coverage run manage.py test polls
   - coveralls
 deploy:
   provider: elasticbeanstalk
