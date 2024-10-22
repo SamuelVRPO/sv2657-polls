@@ -20,3 +20,6 @@ deploy:
   app: "django-polls"
   env: "django-polls-env"
   bucket_name: "elasticbeanstalk-us-east-1-831926624228"
+  branches:
+    only:
+      - deploy
