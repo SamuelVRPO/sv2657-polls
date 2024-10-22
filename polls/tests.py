@@ -1,7 +1,6 @@
 import datetime
 
 from django.test import TestCase
-from django.urls import reverse
 from django.utils import timezone
 
 from .models import Question
@@ -72,6 +71,7 @@ from .models import Question
 #             response.context['latest_question_list'],
 #             [question2, question1],
 #         )
+
 
 class QuestionModelTests(TestCase):
 
