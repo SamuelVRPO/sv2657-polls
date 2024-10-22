@@ -5,9 +5,10 @@ python:
 install:
   - pip install -r requirements.txt
 script:
-  - black ebdjango
-  - black polls
+  - black --check ebdjango
+  - black --check polls
   - flake8 ebdjango
+  - flake8 polls
   - coveralls
 deploy:
   provider: elasticbeanstalk
@@ -18,4 +19,4 @@ deploy:
   region: "us-east-1"
   app: "django-polls"
   env: "django-polls-env"
-  bucket_name: "bucket-name"
+  bucket_name: "elasticbeanstalk-us-east-1-831926624228"
