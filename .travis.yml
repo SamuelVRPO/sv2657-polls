@@ -13,12 +13,12 @@ script:
 deploy:
   provider: elasticbeanstalk
   access_key_id:
-    secure: "Encrypted <access-key-id>=AKIA4DMVQ37SJJKN4BEO"
+    secure: $AWS_ID
   secret_access_key:
-    secure: "Encrypted <secret-access-key>=6Kdvyzb6m198bDrPv6dtD/9kWbT8+ZhN9EQ48UXF"
+    secure: $AWS_KEY
   region: "us-east-1"
   app: "ebdjango"
-  env: "e-af3wfzd8gz"
+  env: "ebdjango-dev"
   bucket_name: "elasticbeanstalk-us-east-1-831926624228"
   on:
     repo: SamuelVRPO/sv2657-polls
