@@ -16,7 +16,7 @@ deploy:
   secret_access_key: $AWS_KEY
   region: "us-east-1"
   app: "ebdjango"
-  env: "ebdjango-dev"
+  env: "ebdjango-nyu"
   bucket_name: "elasticbeanstalk-us-east-1-831926624228"
   on:
     repo: SamuelVRPO/sv2657-polls
