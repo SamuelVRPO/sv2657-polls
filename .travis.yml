@@ -18,7 +18,7 @@ deploy:
     secure: "Encrypted <secret-access-key>=6Kdvyzb6m198bDrPv6dtD/9kWbT8+ZhN9EQ48UXF"
   region: "us-east-1"
   app: "ebdjango"
-  env: "ebdjango-dev"
+  env: "ebdjango-dev2"
   bucket_name: "elasticbeanstalk-us-east-1-831926624228"
   on:
     repo: SamuelVRPO/sv2657-polls
